@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnWisdom &mdash; Política de Privacidade</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 11pt;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+
+    #ppHeader {
+      background-color: #1a5c3a;
+      color: #ffffff;
+      font-size: 22pt;
+      font-weight: bold;
+      padding: 24px 40px;
+      letter-spacing: 0.5px;
+    }
+
+    #ppSubheader {
+      background-color: #e8f5e9;
+      border-bottom: 2px solid #1a5c3a;
+      padding: 10px 40px;
+      font-size: 9pt;
+      color: #555;
+    }
+
+    #ppBody {
+      max-width: 860px;
+      margin: 30px auto;
+      padding: 0 20px 60px;
+      text-align: justify;
+      line-height: 1.8;
+    }
+
+    .section {
+      margin-bottom: 28px;
+    }
+
+    .sectionTitle {
+      font-size: 13pt;
+      font-weight: bold;
+      color: #1a5c3a;
+      border-bottom: 1px solid #c8e6c9;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+
+    .sectionTitle.blue {
+      color: #1565c0;
+      border-bottom-color: #bbdefb;
+    }
+
+    .innerText {
+      margin-bottom: 8px;
+    }
+
+    ul.policy-list {
+      margin: 8px 0 8px 28px;
+    }
+
+    ul.policy-list li {
+      margin-bottom: 4px;
+    }
+
+    .highlight-box {
+      background-color: #e8f5e9;
+      border-left: 4px solid #1a5c3a;
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin: 14px 0;
+    }
+
+    .highlight-box.info {
+      background-color: #e3f2fd;
+      border-left-color: #1565c0;
+    }
+
+    footer {
+      background-color: #1a5c3a;
+      color: #ccc;
+      font-size: 9pt;
+      text-align: center;
+      padding: 18px 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #a5d6a7;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-block {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin-top: 10px;
+      font-size: 10.5pt;
+      line-height: 1.9;
+    }
+
+    .last-edited {
+      margin-top: 40px;
+      font-size: 9pt;
+      color: #888;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="ppHeader">LearnWisdom &mdash; Política de Privacidade</div>
+  <div id="ppSubheader">Equipmoz &bull; Beira, Moçambique &bull; admin@equipmoz.org</div>
+
+  <div id="ppBody">
+
+    <div class="section">
+      <div class="innerText">
+        Esta política de privacidade foi elaborada para informar claramente os utilizadores do aplicativo
+        <strong>LearnWisdom</strong> sobre como os seus dados são (ou não são) recolhidos, utilizados e protegidos.
+        Leia atentamente para compreender as nossas práticas em relação às suas informações.
+      </div>
+    </div>
+
+    <!-- Informações recolhidas -->
+    <div class="section">
+      <div class="sectionTitle">Que informações pessoais recolhemos?</div>
+      <div class="highlight-box">
+        <strong>Não recolhemos informações pessoais identificáveis.</strong>
+      </div>
+      <div class="innerText">
+        O LearnWisdom não solicita, não armazena e não transmite:
+      </div>
+      <ul class="policy-list">
+        <li>Nome ou apelido</li>
+        <li>Endereço de e-mail</li>
+        <li>Número de telefone</li>
+        <li>Localização geográfica</li>
+        <li>Informações de pagamento ou cartão de crédito</li>
+        <li>Qualquer outro dado de identificação pessoal</li>
+      </ul>
+    </div>
+
+    <!-- Dados no dispositivo -->
+    <div class="section">
+      <div class="sectionTitle">Que dados são armazenados no dispositivo?</div>
+      <div class="innerText">
+        O LearnWisdom armazena <strong>exclusivamente no seu dispositivo</strong> os seguintes dados de utilização:
+      </div>
+      <ul class="policy-list">
+        <li><strong>Preferências do utilizador</strong> &mdash; configurações da aplicação (ex.: filtro de lições descarregadas), guardadas via AsyncStorage.</li>
+        <li><strong>Progresso das lições</strong> &mdash; páginas visualizadas, estado de conclusão, última lição aberta.</li>
+        <li><strong>Estado do vocabulário</strong> &mdash; palavras marcadas como conhecidas, em aprendizagem ou ignoradas.</li>
+        <li><strong>Conteúdo descarregado</strong> &mdash; ficheiros de lição (áudio, imagens, texto) para uso offline.</li>
+      </ul>
+      <div class="innerText">
+        Todos estes dados <strong>ficam exclusivamente no seu dispositivo</strong> e não são transmitidos para os nossos servidores.
+      </div>
+    </div>
+
+    <!-- Como usamos -->
+    <div class="section">
+      <div class="sectionTitle">Como usamos os dados armazenados?</div>
+      <div class="innerText">Os dados armazenados localmente servem exclusivamente para:</div>
+      <ul class="policy-list">
+        <li>Apresentar o seu progresso e retomar lições onde parou.</li>
+        <li>Personalizar a experiência de aprendizagem com base nas suas preferências.</li>
+        <li>Permitir a utilização offline após o descarregamento do conteúdo.</li>
+      </ul>
+    </div>
+
+    <!-- Descarregamento de conteúdo -->
+    <div class="section">
+      <div class="sectionTitle">Descarregamento de conteúdo</div>
+      <div class="innerText">
+        Para disponibilizar lições e materiais educativos, a aplicação realiza pedidos aos servidores da
+        <strong>Equipmoz</strong> (<code>api.equipmoz.org</code>) exclusivamente para
+        <strong>descarregar pacotes de conteúdo</strong> (lições, áudio, imagens).
+        Estes pedidos:
+      </div>
+      <ul class="policy-list">
+        <li>Não enviam dados pessoais.</li>
+        <li>Não incluem identificadores únicos de utilizador.</li>
+        <li>Servem unicamente para transferir conteúdo educativo.</li>
+      </ul>
+      <div class="innerText">
+        A integridade de cada pacote descarregado é verificada por <em>hash</em> antes de ser utilizado pela aplicação.
+      </div>
+    </div>
+
+    <!-- Cookies -->
+    <div class="section">
+      <div class="sectionTitle">Utilizamos cookies?</div>
+      <div class="innerText">
+        O LearnWisdom é uma aplicação móvel nativa. <strong>Não utilizamos cookies.</strong>
+      </div>
+    </div>
+
+    <!-- Terceiros -->
+    <div class="section">
+      <div class="sectionTitle">Divulgação a terceiros</div>
+      <div class="innerText">
+        <strong>Não vendemos, trocamos nem transferimos</strong> para terceiros quaisquer informações dos utilizadores.
+        A aplicação não integra redes de publicidade, serviços de análise de terceiros (ex.: Google Analytics, Facebook)
+        nem ferramentas de rastreio comportamental.
+      </div>
+    </div>
+
+    <!-- Links de terceiros -->
+    <div class="section">
+      <div class="sectionTitle">Links de terceiros</div>
+      <div class="innerText">
+        O LearnWisdom não inclui nem oferece produtos ou serviços de terceiros dentro da aplicação.
+      </div>
+    </div>
+
+    <!-- Segurança -->
+    <div class="section">
+      <div class="sectionTitle">Como protegemos as suas informações?</div>
+      <div class="innerText">
+        Todos os dados são armazenados localmente no dispositivo do utilizador e ficam protegidos pelas salvaguardas
+        do próprio sistema operativo (Android / iOS). Adicionalmente:
+      </div>
+      <ul class="policy-list">
+        <li>O código da aplicação é revisto regularmente.</li>
+        <li>Os conteúdos descarregados são verificados por <em>hash</em> para garantir integridade.</li>
+        <li>Não existe base de dados remota com informações dos utilizadores.</li>
+      </ul>
+    </div>
+
+    <!-- CalOPPA -->
+    <div class="section">
+      <div class="sectionTitle blue">California Online Privacy Protection Act (CalOPPA)</div>
+      <div class="innerText">
+        Em conformidade com a CalOPPA, concordamos com o seguinte:
+      </div>
+      <ul class="policy-list">
+        <li>Os utilizadores podem visitar e utilizar a aplicação de forma anónima.</li>
+        <li>Esta política de privacidade pode ser facilmente encontrada na página de informações da aplicação.</li>
+        <li>Será notificado de quaisquer alterações à política nesta mesma página.</li>
+        <li>Respeitamos os sinais <em>Do Not Track</em> (DNT) e não utilizamos publicidade comportamental.</li>
+        <li>Não permitimos rastreio comportamental por terceiros.</li>
+      </ul>
+    </div>
+
+    <!-- COPPA -->
+    <div class="section">
+      <div class="sectionTitle blue">COPPA (Children's Online Privacy Protection Act)</div>
+      <div class="innerText">
+        O LearnWisdom não recolhe dados pessoais de nenhum utilizador, independentemente da idade.
+        <strong>Não nos dirigimos especificamente a crianças com menos de 13 anos</strong> nem recolhemos
+        intencionalmente informações pessoais desse grupo.
+      </div>
+    </div>
+
+    <!-- Fair Information Practices -->
+    <div class="section">
+      <div class="sectionTitle blue">Práticas de Informação Justa (Fair Information Practices)</div>
+      <div class="innerText">
+        Caso ocorra uma violação de dados (não esperada, dada a natureza local da aplicação), comprometemo-nos a:
+      </div>
+      <ul class="policy-list">
+        <li>Notificá-lo por e-mail no prazo de 7 dias úteis.</li>
+        <li>Cumprir o princípio de recurso individual, garantindo que os utilizadores possam exercer os seus direitos legais.</li>
+      </ul>
+    </div>
+
+    <!-- Contacto -->
+    <div class="section">
+      <div class="sectionTitle">Contacto</div>
+      <div class="innerText">
+        Se tiver questões sobre esta política de privacidade, contacte-nos:
+      </div>
+      <div class="contact-block">
+        <strong>Equipmoz</strong><br>
+        327 Rua Pero de Covihã<br>
+        Beira, Sofala 2100<br>
+        Moçambique<br>
+        📧 <a href="mailto:admin@equipmoz.org">admin@equipmoz.org</a>
+      </div>
+    </div>
+
+    <div class="last-edited">Última actualização: 13 de março de 2026</div>
+
+  </div><!-- /#ppBody -->
+
+  <footer>
+    &copy; 2026 Equipmoz. Todos os direitos reservados.
+    &bull; <a href="mailto:admin@equipmoz.org">admin@equipmoz.org</a>
+  </footer>
+
+</body>
+</html>
